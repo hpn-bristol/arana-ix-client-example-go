@@ -7,11 +7,11 @@ import (
 
 func main() {
 	client := NewIxClient(
-		"http://10.68.123.135:80",
-		"go_test",
-		"041Rz-o1tzP--WrTnywGvw",
-		WithDataLogging(true),                 // This will log all data being sent
-		WithRelationID("rel28edd4a35aa553e5"), // This will forward data to a remote relation
+		"SET-IX-URL",
+		"SET-IX-USERNAME",
+		"SET-IX-PASSWORD",
+		// WithDataLogging(true),                     // This will log all data being sent
+		// WithRelationID("SET-IX-RELATION-ID"), // This will forward data to a remote relation
 	)
 
 	// Connect and wait for connection to establish
