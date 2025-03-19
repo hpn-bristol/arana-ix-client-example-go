@@ -1,1 +1,1 @@
-# arana-ix-client-example-go
+# arana-ix-go-xapp-example-go

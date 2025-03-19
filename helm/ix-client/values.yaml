@@ -1,0 +1,14 @@
+replicaCount: 1
+
+image:
+  repository: ix-go-xapp
+  tag: latest
+  pullPolicy: IfNotPresent
+
+resources:
+  limits:
+    cpu: 100m
+    memory: 128Mi
+  requests:
+    cpu: 50m
+    memory: 64Mi

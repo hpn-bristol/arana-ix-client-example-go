@@ -1,4 +1,4 @@
-module ix-client-go
+module ix-go-xapp-go
 
 go 1.24.0
 
