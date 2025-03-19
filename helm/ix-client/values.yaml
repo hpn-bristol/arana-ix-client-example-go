@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: ix-go-xapp
+  repository: ghcr.io/hpn-bristol/ix-go-xapp
   tag: latest
   pullPolicy: IfNotPresent
 
